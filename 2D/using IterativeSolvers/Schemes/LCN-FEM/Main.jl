@@ -61,7 +61,7 @@ Uhat = Matris\b_tot;
 U,Energy = TimeStep(Simplices,Nodes,Mesh2Space,N_of_Simplices,N_of_Nodes,β,tau,A,M_β,M,M_v,Uhat,U0,Energy,ϵ,Quad,v,M_L,pathway);
 Tid = time()-Tid;
 
-save(pathway*"LCN_beta_"*string(β)*"_Nt_"*string(N_t)*"_Mesh"*string(Mesh)*".jld","U",U,"Energy",Energy,"Mesh2Space",Mesh2Space,"beta",β,"Tid",Tid)
+save(pathway*"LCN_beta_"*string(β)*"_Nt_"*string(N_t)*"_Mesh_"*string(Mesh)*".jld","U",U,"Energy",Energy,"Mesh2Space",Mesh2Space,"beta",β,"Tid",Tid)
 
     
 end

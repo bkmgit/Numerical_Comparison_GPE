@@ -12,7 +12,6 @@ N_of_Simplices = size(Simplices,2);
 Mesh2Space, SpaceSize = Dirichlet_BC( BoundaryX, BoundaryY, N_of_Nodes, Nodes);
 
 
-
 #------------------Calculate Reference solution--------------------
 t=10;
 u(x) = sqrt(2)*exp(1im*(x/2+3*t/4))*sech(x-t)

@@ -1,4 +1,3 @@
-using IterativeSolvers
 using SparseArrays
 using LinearAlgebra
 using JLD

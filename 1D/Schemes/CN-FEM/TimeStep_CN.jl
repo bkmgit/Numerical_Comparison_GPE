@@ -106,7 +106,7 @@ t = 0.
 	#Measure Final Energy
 	M_b=Reinit_M(Simplices,Nodes,Mesh2Space, M_b, N_of_Simplices);
 	M_b = AssembleMatrix_M_formatFEM(Simplices,Nodes,Mesh2Space,U, M_b, N_of_Simplices,Quad)
-	Energy[idx_E,2] = real(ϵ*U'*(A*U)+β*U'*(M_b*U)/2.0+U'*M_V*U)
+	Energy[idx_E,2] = real(ϵ*U'*(A*U)+β*U'*(M_b*U)/2.0+U'*M_v*U)
 	Energy[idx_E,1] = T
      
     return U0, Energy;

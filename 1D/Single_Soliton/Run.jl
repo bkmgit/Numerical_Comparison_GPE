@@ -46,11 +46,12 @@ tau = T/N_t;
 
 #RE2(Simplices, Nodes,  N_of_Simplices, N_of_Nodes, Mesh2Space, SpaceSize, Quad,  tau, N_t,  v, pathway, U0); println("RE2-FEM done")
 
-#CN(Simplices, Nodes,  N_of_Simplices, N_of_Nodes, Mesh2Space, SpaceSize, Quad,  tau, N_t,  v, pathway, U0); println("CN-FEM done")
+#TWOSTEP(Simplices, Nodes,  N_of_Simplices, N_of_Nodes, Mesh2Space, SpaceSize, Quad,  tau, N_t,  v, pathway, U0); println("TWOSTEP-FEM done")
 
-#IM(Simplices, Nodes,  N_of_Simplices, N_of_Nodes, Mesh2Space, SpaceSize, Quad,  tau, N_t,  v, pathway, U0); println("IM-FEM done")
+CN(Simplices, Nodes,  N_of_Simplices, N_of_Nodes, Mesh2Space, SpaceSize, Quad,  tau, N_t,  v, pathway, U0); println("CN-FEM done")
 
-TWOSTEP(Simplices, Nodes,  N_of_Simplices, N_of_Nodes, Mesh2Space, SpaceSize, Quad,  tau, N_t,  v, pathway, U0); println("TWOSTEP-FEM done")
+IM(Simplices, Nodes,  N_of_Simplices, N_of_Nodes, Mesh2Space, SpaceSize, Quad,  tau, N_t,  v, pathway, U0); println("IM-FEM done")
+
 
 
 

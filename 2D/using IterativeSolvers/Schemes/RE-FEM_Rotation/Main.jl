@@ -113,7 +113,7 @@ Tid = time() - Tid ;
     
     
 
- 	save(pathway*"Relaxation_beta"*string(β)*"_tau"*string(tau)*"_Mesh"*string(Mesh)*".jld","U",U,"Energy",Energy,"Mesh2Space",Mesh2Space,"beta",β,"Tid",Tid)
+ 	save(pathway*"Relaxation_beta"*string(β)*"_tau"*string(tau)*"_Mesh_"*string(Mesh)*".jld","U",U,"Energy",Energy,"Mesh2Space",Mesh2Space,"beta",β,"Tid",Tid)
   
     
     
