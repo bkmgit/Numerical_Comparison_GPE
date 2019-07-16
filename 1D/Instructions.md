@@ -5,10 +5,10 @@ The code was built for Julia Versions later than 1.0 .
 The following packages are needed:
 
 
-* (SparseArrays)[https://docs.julialang.org/en/v1/stdlib/SparseArrays/index.html]
-* (LinearAlgebra)[https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/]
-* (JLD)[https://github.com/JuliaIO/JLD.jl]
-* (FFTW)[https://pkg.julialang.org/docs/FFTW]			(For spectral method)
+* [SparseArrays](https://docs.julialang.org/en/v1/stdlib/SparseArrays/index.html)
+* [LinearAlgebra](https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/)
+* [JLD](https://github.com/JuliaIO/JLD.jl)
+* [FFTW](https://pkg.julialang.org/docs/FFTW)			(For spectral method)
 
 ## EXAMPLE 
 
