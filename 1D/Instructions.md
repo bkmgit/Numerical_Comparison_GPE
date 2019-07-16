@@ -18,6 +18,7 @@ The code solves
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;iu_t=-u_{xx}-|u|^2u" title="\Large Iu_t=-u_{xx}-|u|^2u" />
 
 with initial value 
+
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;u0=\sqrt{2}\textup{exp}\left(ix/2)\textup{sech}(x)" title="\Large iu_t=-u_{xx}-|u|^2u" />
 
 which is section 3.1 in the paper. The files are saved in the folder T10. 
